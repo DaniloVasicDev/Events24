@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "651667230078",
+    "project_id": "events24-abc9d",
+    "storage_bucket": "events24-abc9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651667230078:android:e64d27f2dcdd5cd29a372f",
+        "android_client_info": {
+          "package_name": "com.dragonjic.cubes.events24"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651667230078-5icgs87158m8q57bdsk2213acmjdv7ko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzqmTYbqB4ulFstz54bDH58SF-8LSuyB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651667230078-5icgs87158m8q57bdsk2213acmjdv7ko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651667230078:android:42f4ea46ea115b839a372f",
+        "android_client_info": {
+          "package_name": "com.vasic.cubes.events24"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651667230078-5icgs87158m8q57bdsk2213acmjdv7ko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzqmTYbqB4ulFstz54bDH58SF-8LSuyB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651667230078-5icgs87158m8q57bdsk2213acmjdv7ko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

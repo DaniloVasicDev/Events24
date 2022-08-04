@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dragonjic.cubes.events24.ui.fragment.FavouritesFragment"
+    android:background="@color/purple_dark"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_size_normal"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_normal"
+        android:text="Favourites"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/margin_main"
+            android:weightSum="4">
+
+            <TextView
+                android:id="@+id/buttonAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/purple"
+                android:text="See all"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:id="@+id/buttonConcert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Koncerti"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                />/>
+            <TextView
+                android:id="@+id/buttonPozorista"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Pozorista"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                />/>
+            <TextView
+                android:id="@+id/buttonSport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sport"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                />/>
+
+        </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/margin_rv_item"/>
+
+</LinearLayout>
